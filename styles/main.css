@@ -20,6 +20,7 @@
 	--color-box-base: #FFFFFF;
 	--color-box-footer: #FAFAFC;
 	--color-small-info: #C1BCCC;
+	font-size: 60%;
 	
 }
 
@@ -46,12 +47,18 @@ textarea {
 	font-family: Poppins;
 	font-size: 1.6rem;
 	color: white;
-	margin-top: 50px;
+	
 }
 
 #container {
 	width: 90vw;
 	max-width: 700px;
 	
+}
+
+@media (min-width: 700px) {
+	:root {
+		font-size: 62.5%; /* todo rem vai ser relativo a 10px */
+	}
 }
 
