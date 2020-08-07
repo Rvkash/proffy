@@ -16,7 +16,7 @@
 
 ## 📖 Sobre 
 Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 3 a 9 de Agosto de 2020
-com o intuito de ensinar programadores a alcançarem seus objetivos no menor tepo possível.
+com o intuito de ensinar programadores a alcançarem seus objetivos no menor tempo possível.
 
 <p align="center">
  <img src="https://ik.imagekit.io/capitao/Proffy/final_1596781937_urgAUoPC-.jpg" width="700" > 
