@@ -1,4 +1,9 @@
-const { pageLanding, pageStudy, pageGiveClasses } = require('./page')
+const {
+  pageLanding,
+  pageStudy,
+  pageGiveClasses,
+  saveClasses
+} = require('./page')
 
 const express = require('express')
 const server = express()
@@ -10,12 +15,18 @@ nunjucks.configure('src/views', {
   express: server,
   noCache: true
 })
+//Receber os dados do req.body
+server
+.use(express.urlencoded({ extended: true}))
 
-// Controllers
+
+
+// Configurar arquivos estáticos
 server.use(express.static('public'))
   .get('/', pageLanding)
   .get('/study', pageStudy)
   .get('/give-classes', pageGiveClasses)
+  .post('/save-classes', saveClasses)
 
 server.listen(5000, function () {
   console.log('Server ta online')
