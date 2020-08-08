@@ -91,14 +91,19 @@
       </div>
 
     </header>
-
+    
     <main>
+
+      {% if proffys == "" %}
+        <p class="no-results">Nenhum professor encontrado com a sua pesquisa.</p>
+
+      {% else %}
 
       {% for proffy in proffys %}
       <article class="teacher-item">
         
         <header>
-          <img src="https://github.com/diego3g.png" alt="Diego Fernandes">
+          <img src={{proffy.avatar}} alt="Diego Fernandes">
           <div>
             <strong>{{proffy.name}}</strong>
             <span>{{proffy.subject}}</span>
@@ -119,6 +124,8 @@
 
       </article>
       {% endfor %}
+
+    {% endif %}
     </main>
   </div>
 
