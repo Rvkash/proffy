@@ -45,4 +45,4 @@ npm run dev
 ```
 Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
 
-Feito com :blue_heart: by [Rafael Linhares](https://www.linkedin.com/in/rafael-linhares-js/)
+Feito com :blue_heart: por [Rafael Linhares](https://www.linkedin.com/in/rafael-linhares-js/)
