@@ -35,9 +35,9 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ⌨ Como executar o projeto
 ```bash
 # Clonar o repositório
-git clone https://github.com/guilhermecapitao/proffy-discovery
+git clone https://github.com/rvkash/proffy
 # Entrar no diretório
-cd proffy-discovery
+cd proffy
 # Baixar as dependências
 npm i
 # Executar o servidor
