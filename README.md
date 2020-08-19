@@ -35,7 +35,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ⌨ Como executar o projeto
 ```bash
 # Clonar o repositório
-git clone https://github.com/rvkash/proffy
+git clone https://github.com/Rvkash/proffy
 # Entrar no diretório
 cd proffy
 # Baixar as dependências
